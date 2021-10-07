@@ -13,11 +13,11 @@
 }
 
 body{
-  color: var(--white30);
-  font-family: 'Nunito', sans-serif;
-  background: #251F24;
+  color: rgb(243, 234, 234);
+  font-family: 'Rubik', sans-serif;
+  background: #232946;
   margin: 0;
-
+  /* text-align: center; */
 }
 
 a{
@@ -31,13 +31,17 @@ a{
 
 h1{
   font-size: 40px;
-  margin-block-start: 20px;
+  margin-block-start: 50px;
   margin-block-end: 16px;
+  font-style: normal;
+  /* background: red; */
 }
 
 hr{
+  outline-color: #bca09f;
   margin-block: 40px;
-  border-color: rgba(97, 97, 97, 0.2);
+  opacity: 10%;
+  /* border-color: #554847; */
 }
 
 h2{
@@ -52,11 +56,13 @@ h3{
   margin-block: 16px;
 }
 .header{
+
   /* position: sticky;
   inset-block-start: -45px; */
 }
 .header-content{
   padding-inline: 20px;
+  /* background: red; */
   /* position: relative;
   inset-block-start: 65px; */
 }
@@ -66,9 +72,10 @@ header{
   margin-block-start: 20px;
   font-size: 14px;
   color: var(--white);
+  /* margin-inline-start: 650px; */
   /* position: absolute; */
   /* inset-block-start: 64px;
-  inset-inline-start: -208px;
+  inset-inline-start: -208px
   inline-size: 188px; */
 }
 
@@ -91,7 +98,9 @@ nav details summary {
 
 
 pre{
-  background: var(--white10);
+  margin-block-start: 40px;
+  color: #A5A3A5;
+  background: none;
   padding: 40px;
   overflow: auto;
   border-radius: 8px;
@@ -100,6 +109,15 @@ pre{
 p{
   color: var(--white20);
 }
+
+.indentacion {
+  text-align: center;
+}
+
+.main{
+  /* inset-inline-start: 10000px; */
+}
+
 .hero{
   background: linear-gradient(96.07deg, #314755 30.63%, #26A0DA 102.18%);
   block-size: 100px;
@@ -110,6 +128,7 @@ p{
   max-inline-size: 100%;
 }
 .section-content{
+  /* background: red; */
   counter-reset: titleList;
 }
 
@@ -131,11 +150,12 @@ p{
 } */
 
 blockquote{
+  color: var(--white10);
   line-height: 32px;
   font-size: 24px;
 margin-block-start: 60px;
 margin-block-end: 63px;
-background-color: var(--white10);
+background-color: #bca09f;
 border-radius: 8px;
 padding-inline-end: 24px;
 padding-inline-start: 24px;
@@ -144,22 +164,32 @@ padding-block-end: 24px;
 
 }
 blockquote p{
-  color: var(--white30);
+  color: var(--white10);
+}
+
+.image{
+  margin-inline-start: auto;
+  margin-inline-end: auto;
 }
 
 
-
-.section-content hr{
-  border-color: var(--white10);
+.section-content li {
+    color: var(--white20);
 }
+
 
 .wrapper{
   max-inline-size: 902px ;
   margin: auto;
 
 }
+.fraseLeonidas{
+  text-align: left;
+}
+
 .main-content{
   padding-inline: 16px;
+  /* text-align: center; */
 }
 
 /* .slider{ */
@@ -209,7 +239,8 @@ aspect-ratio: 16/9;
 }
 
 .form input[type="submit"] {
-background: #157EFB;
+  color: #232946;
+background: #bca09f;
 border: none; }
 
 .form ::-webkit-input-placeholder{
@@ -226,14 +257,15 @@ border: none; }
   }
   .header-content{
     position: relative;
-    inset-block-start: 65px;
+    inset-block-start: 15px;
     padding-inline: 0;
   }
 
   header{
+    /* background: red; */
     position: absolute;
     inset-block-start: 0px;
-    inset-inline-start: -208px;
+    inset-inline-end: -230px;
     inline-size: 188px;
   }
   h1{
@@ -244,4 +276,11 @@ border: none; }
     background: red;
   } */
 
+
+  }
+  /* .image{
+    margin-inline-start: auto;
+    margin-inline-end: auto; */
+    /* width: 50%; */
+  }
 }
